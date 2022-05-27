@@ -1,0 +1,17 @@
+targetNamespace: ''
+parameters: {}
+packages:
+  - name: notification
+    environment: {}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: push
+        binary: false
+        main: ''
+        runtime: 'go:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
