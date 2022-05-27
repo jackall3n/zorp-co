@@ -43,4 +43,9 @@ export class AppController {
 
     return data;
   }
+
+  @Get("notifications")
+  async notifications() {
+    return prisma.notification.findMany()
+  }
 }
